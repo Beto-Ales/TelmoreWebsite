@@ -1,0 +1,195 @@
+/* Global styles
+-------------------------*/
+
+body {
+    font-family: 'Noto Sans', sans-serif;
+    color: white;
+    text-align: center;
+    margin: 0;
+    min-width: 489px;
+}
+
+nav {
+    background: #3952c8;
+    display: block;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;    
+}
+
+h1 {
+    font-size: 40px;    
+}
+
+h1, h2, h3 {    
+    margin: 0;    
+}
+
+section h1 + p {
+    margin-top: 0;
+}
+
+/* bolder & uppercase
+---------------------- */
+
+h1, h2, header p, header a, .mobilabonnement-flex-item p {
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+.tilbud a, .julekalender a{
+    color: black;
+    font-weight: bolder;
+    background: #00CC46;
+    border: 1px solid #00CC46;
+    box-shadow: -15px 15px black;
+    text-transform: uppercase;
+    text-decoration-line: none;
+    padding: 5px 10px; 
+}
+
+ul {
+    list-style-type: none;    
+    padding: 0;
+ }
+
+  li {
+      padding-bottom: 5px;      
+ }
+
+/* Header
+-------------------------*/
+header {
+    background: #0528b8;       
+}
+
+header p, header a {
+    color: white;
+    text-decoration-line: none;
+    padding: 5px 10px;
+}
+
+#brand {    
+    color: #F0AFF1;    
+    letter-spacing: 8px;
+    font-size: 20px;
+}
+
+.header-flex-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 300px;
+}
+
+.nav-flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    min-height: 40px;     
+    margin: 0;
+}
+
+.nav-flex-container a {
+    font-size: 12px;
+    padding: 13px 17px;
+    color:white;
+    transition: color .5s;
+}
+
+.nav-flex-container a:hover {
+    color: #ffb300;
+}
+
+/* Footer
+-------------------------*/
+
+footer {
+    padding: 50px;
+    text-align: left;
+    background: #0528b8;
+    color: white;
+    font-size: 15px;
+}
+
+.footer-flex-item {
+    min-width: 225px;
+}
+
+/* sections
+-------------- */
+
+/* tilbud
+----------- */
+
+.tilbud {
+    background: #FF002C;
+    padding: 50px;
+}
+
+.tilbud footer {
+    background: inherit;
+    padding: 0;
+    margin: 40px 0 0 0;
+}
+
+.tilbud footer p {
+    font-size: 10px;
+    text-align: center;    
+}
+
+.tilbud img {
+    max-width: 400px;
+    max-height: 300px;    
+}
+
+/* mobilabonnement
+------------------- */
+
+.mobilabonnement {
+    background: white;
+    color: #022db7;
+    padding: 50px;
+}
+
+.mobilabonnement-flex-item {
+    min-width: 215px;
+    padding-top: 40px;
+}
+
+.mobilabonnement i {
+    font-size: 40px;
+}
+
+/* julekalender
+---------------- */
+
+.julekalender {
+    color: white;
+    padding: 50px;
+    max-height: 232px;
+    background: #0528B8;
+    background: linear-gradient(rgb(153, 134, 80, 0), rgb(153, 134, 80, 0)),
+                url(https://static.wixstatic.com/media/9cb832_723464eeb89546e3888e762c1ca315e6~mv2_d_7965_2133_s_2.jpg/v1/fill/w_1126,h_302,al_c,q_90,usm_0.66_1.00_0.01/9cb832_723464eeb89546e3888e762c1ca315e6~mv2_d_7965_2133_s_2.webp) fixed;
+}
+
+.julekalender p {
+    margin-bottom: 60px;
+}
+
+/* smart
+--------- */
+
+.smart {
+    background: #00CC46;
+    padding: 50px;
+}
+
+.smart img {
+    max-width: 475px;
+    max-height: 260px;    
+}
